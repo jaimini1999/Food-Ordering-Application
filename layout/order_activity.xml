@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    android:backgroundTint="#03A9F4">
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview_design"
+        android:backgroundTint="#0914ED"
+        android:paddingLeft="50dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Orders"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/o1"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_design"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:hint="OrderId"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/o2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_design"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:hint="ItemId"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/o3"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_design"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="270dp"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/o4"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_design"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:hint="Price"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/o5"
+        android:textSize="25sp"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_design"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:textColor="@color/black"
+        android:hint="Quantity"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/o6"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_design"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="510dp"
+        android:hint="DeliveryAddress"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/o7"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/textview_design"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="590dp"
+        android:hint="Total"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/s3"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/button_bg_design"
+        android:backgroundTint="#0914ED"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
